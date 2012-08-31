@@ -7,5 +7,5 @@ from ingame import InGame
 class MyApp(App):
     pass
 
-app = MyApp("Frogs", resolution=(480, 320), appstates=[InGame])
+app = MyApp("Frogs", resolution=(800, 480), appstates=[InGame])
 app.run()
